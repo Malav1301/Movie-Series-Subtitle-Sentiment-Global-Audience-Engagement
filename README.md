@@ -6,54 +6,41 @@ This project analyzes IMDb movie data to extract insights using sentiment analys
 ---
 
 ## 📂 Dataset Used
-- **Scraped IMDb Data** using Python (BeautifulSoup, Selenium) 
-- IMDb movie details with features like **Rating, Metascore, Genre, Duration, Reviews, and Summary**.
+- **Scraped IMDb Data** using Python (Selenium).  
+- IMDb movie details with features like **Rating, Metascore, Genre, Duration, Reviews, and Summary**.  
 - Sentiment scores generated from movie summaries.
 
 ---
 
 ## 🛠️ Data Processing Steps
 
-### **1️⃣ Web Scraping (Python)**
-- Used **BeautifulSoup & Selenium** to extract IMDb movie data.
-- Scraped movie details including **title, rating, metascore, genre, duration, reviews, and summary**.
+### **1️⃣ Web Scraping (Python)** [**View Web Scraping Code**](https://github.com/Malav1301/Movie-Series-Subtitle-Sentiment-Global-Audience-Engagement/blob/main/CODE/Web_Scrapping_IMDB.ipynb)
+- Used **BeautifulSoup & Selenium** to extract IMDb movie data.  
+- Scraped movie details including **title, rating, metascore, genre, duration, reviews, and summary**.  
 - Stored scraped data in a structured **CSV file** for further processing.
 
-### **2️⃣ Data Cleaning & Preprocessing (Python)**
-- Removed unnecessary characters from **Movie Names**.
-- Converted **Duration** to numerical values (minutes).
-- Cleaned and converted **Num_Reviews** (K/M notation to integer).
-- Handled **missing values** using median imputation.
+### **2️⃣ Data Cleaning & Preprocessing (Python)** [**View EDA Code**](https://github.com/Malav1301/Movie-Series-Subtitle-Sentiment-Global-Audience-Engagement/blob/main/CODE/EDA_AND_SENTIMENT_ANALYSIS.ipynb)
+- Removed unnecessary characters from **Movie Names**.  
+- Converted **Duration** to numerical values (minutes).  
+- Cleaned and converted **Num_Reviews** (K/M notation to integer).  
+- Handled **missing values** using median imputation.  
 - Converted **Metascore, Duration, Num_Reviews** to appropriate data types.
 
-### **3️⃣ Exploratory Data Analysis (EDA)**
-- **Distribution of IMDb Ratings** (Histogram)
-- **Duration vs. Ratings Relationship** (Scatter Plot)
-- **Top 10 Highest Rated Movies** (Bar Chart)
-- **Genre-based insights** (Boxplots & Aggregated Averages)
-- **Correlation Matrix** to find key relationships
+### **3️⃣ Exploratory Data Analysis (EDA)** 
+- Plotted **Distribution of IMDb Ratings** (Histogram).  
+- Analyzed **Distribution of Movie Durations** (Histogram).  
+- Visualized **IMDB Rating vs. Number of Reviews** (Scatter Plot).  
+- Visualized **Genre-wise Distribution of IMDB Ratings** (Boxplots).  
+- Visualized a **Distribution of Sentiment Scores** (Boxplots).
 
-### **4️⃣ Sentiment Analysis**
-- Used **TextBlob** to assign sentiment polarity to each movie summary.
-- Plotted **Sentiment Score Distribution** and its relationship with **IMDb Ratings**.
+### **4️⃣ Sentiment Analysis** 
+- Used **TextBlob** to assign sentiment polarity to each movie summary.  
+- Plotted **Sentiment Score Distribution** and analyzed its relationship with **IMDb Ratings**.
 
 ### **5️⃣ Statistical Testing & Machine Learning**
-- **Hypothesis:** Positive sentiment leads to higher IMDb ratings.
-- **Correlation Analysis:** Checked relationship between **Sentiment Score & IMDb Rating**.
+- **Hypothesis:** Positive sentiment leads to higher IMDb ratings.  
+- **Correlation Analysis:** Checked the relationship between **Sentiment Score & IMDb Rating**.  
 - **Regression Model:** Built a **Linear Regression Model** to predict IMDb ratings based on Sentiment Score, Metascore, Duration, and Reviews.
-
----
-
-## 📊 Power BI Dashboard Insights
-
-### **🔹 Visualizations in Power BI**
-- **IMDb Ratings Distribution (Histogram)**
-- **Sentiment Score vs IMDb Ratings (Scatter Plot)**
-- **Top 10 Movies by Rating (Bar Chart)**
-- **Genre-wise Rating Comparison (Stacked Bar Chart)**
-- **Duration vs. Ratings Impact (Box Plot)**
-- **Drop-off Rate Analysis (Funnel Chart)**
-- **Sentiment Trends by Region (Map Visualization)**
 
 ---
 
@@ -67,20 +54,19 @@ This project analyzes IMDb movie data to extract insights using sentiment analys
 ---
 
 ## 🚀 Future Work
-- **Enhancing Sentiment Analysis:** Use **advanced NLP models (BERT, GPT)** for better accuracy.
-- **Real-Time Viewer Drop-off Prediction:** Apply **deep learning models** to predict engagement.
+- **Enhancing Sentiment Analysis:** Use **advanced NLP models (BERT, GPT)** for better accuracy.  
+- **Real-Time Viewer Drop-off Prediction:** Apply **deep learning models** to predict engagement.  
 - **Streaming Optimization:** Implement personalized content curation based on sentiment impact.
 
 ---
 
 ## 📊 Power BI Dashboard Insights
 
-![IMDb Sentiment Analysis Dashboard](https://raw.githubusercontent.com/Malav1301/Movie-Series-Subtitle-Sentiment-Global-Audience-Engagement/main/CODE/Screenshot%202025-02-28%20180246.png)
+![IMDb Sentiment Analysis Dashboard](https://github.com/Malav1301/Movie-Series-Subtitle-Sentiment-Global-Audience-Engagement/blob/main/Dashboard/Screenshot%202025-03-03%20160145.png)
 
-
+---
 
 ## 🔗 Contributors
 👤 **Malav Menpara**  
 📧 **malavmenpara2001@gmail.com**  
-💼 **https://github.com/Malav1301**
-
+💼 **[GitHub](https://github.com/Malav1301)**
