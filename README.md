@@ -62,7 +62,7 @@ This project analyzes IMDb movie data to extract insights using sentiment analys
 
 ## 📊 Power BI Dashboard Insights
 
-![IMDb Sentiment Analysis Dashboard](https://github.com/Malav1301/Movie-Series-Subtitle-Sentiment-Global-Audience-Engagement/blob/main/Dashboard/Screenshot%202025-03-03%20160145.png)
+![IMDb Sentiment Analysis Dashboard](https://github.com/Malav1301/Movie-Series-Subtitle-Sentiment-Global-Audience-Engagement/blob/main/Dashboard/Screenshot%202025-03-03%20212728.png)
 
 ---
 
